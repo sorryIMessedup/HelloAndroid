@@ -7,7 +7,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class CounterActivity extends AppCompatActivity{
-    private static int num = 0;
+
+    // This default value is for チルノ(Cirno), ⑨!
+    private static int num = 9;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +20,7 @@ public class CounterActivity extends AppCompatActivity{
         Button btnReduce = findViewById(R.id.btn_REDUCE);
         Button btnClear = findViewById(R.id.btn_CLEAR);
 
+        numText.setText("⑨");
         btnAdd.setOnClickListener(view -> {
             num++;
             numText.setText(String.valueOf(num));
