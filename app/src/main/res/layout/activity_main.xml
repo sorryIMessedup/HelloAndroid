@@ -14,7 +14,7 @@
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginTop="50dp"
-        android:text="OtherActivity"
+        android:text="@string/btn_Other"
         android:textAllCaps="false" />
 
     <Button
@@ -25,7 +25,7 @@
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
-        android:text="Counter"
+        android:text="@string/btn_Counter"
         android:textAllCaps="false" />
 
 </LinearLayout>

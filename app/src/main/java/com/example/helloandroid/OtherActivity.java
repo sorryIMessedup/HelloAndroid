@@ -18,11 +18,11 @@ public class OtherActivity extends AppCompatActivity {
         TextView otherText = findViewById(R.id.textview_other);
 
         btnCloseOrShowText.setOnClickListener(view -> {
-            if (btnCloseOrShowText.getText() == "SHOW") {
-                btnCloseOrShowText.setText("HIDE");
+            if (btnCloseOrShowText.getText() == getResources().getText(R.string.btn_SHOW)) {
+                btnCloseOrShowText.setText(getResources().getText(R.string.btn_HIDE));
                 otherText.setVisibility(View.VISIBLE);
             } else {
-                btnCloseOrShowText.setText("SHOW");
+                btnCloseOrShowText.setText(getResources().getText(R.string.btn_SHOW));
                 otherText.setVisibility(View.GONE);
             }
         });

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">HelloAndroid</string>
+    <string name="btn_ADD">ADD</string>
+    <string name="btn_REDUCE">REDUCE</string>
+    <string name="btn_CLEAR">CLEAR</string>
+    <string name="counterText">The current number is : </string>
+    <string name="counterNum">⑨</string>
+    <string name="btn_Other">OtherActivity</string>
+    <string name="btn_Counter">Counter</string>
+    <string name="btn_HIDE">HIDE</string>
+    <string name="btn_SHOW">SHOW</string>
+    <string name="helloText">Hello, Welcome to Android!</string>
 </resources>

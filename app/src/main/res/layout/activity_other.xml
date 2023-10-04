@@ -14,7 +14,7 @@
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginTop="50dp"
-        android:text="HIDE"
+        android:text="@string/btn_HIDE"
         android:textAllCaps="false" />
 
     <TextView
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="0px"
         android:textSize="28sp"
-        android:text="Hello, Welcome to Android!"
+        android:text="@string/helloText"
         android:textAllCaps="false"
         android:textColor="#F1F1F1"
         android:textStyle="bold" />
