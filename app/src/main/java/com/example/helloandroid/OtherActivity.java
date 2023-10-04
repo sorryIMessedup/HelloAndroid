@@ -14,16 +14,15 @@ public class OtherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_other);
 
-        TextView btnText = findViewById(R.id.btn_showOrCloseText);
+        Button btnCloseOrShowText = findViewById(R.id.btn_showOrCloseText);
         TextView otherText = findViewById(R.id.textview_other);
 
-        Button showOrCloseText = findViewById(R.id.btn_showOrCloseText);
-        showOrCloseText.setOnClickListener(view -> {
-            if (btnText.getText() == "SHOW") {
-                btnText.setText("HIDE");
+        btnCloseOrShowText.setOnClickListener(view -> {
+            if (btnCloseOrShowText.getText() == "SHOW") {
+                btnCloseOrShowText.setText("HIDE");
                 otherText.setVisibility(View.VISIBLE);
             } else {
-                btnText.setText("SHOW");
+                btnCloseOrShowText.setText("SHOW");
                 otherText.setVisibility(View.GONE);
             }
         });
