@@ -12,13 +12,13 @@ In the main view, you will see はくれい れいむ (Hakurei Reimu) and 2 butt
 Press each button, and you will be leaded to the corresponding views.
 
 <div align="center">
-  <img src="https://github.com/sorryIMessedup/HelloAndroid/blob/master/data/screenshot_main.png =" height="150px">
+  <img src="https://github.com/sorryIMessedup/HelloAndroid/blob/master/data/screenshot_main.png" height="300px">
 </div>
 
 If you press the upper button, you will see this:
 
 <div align="center">
-  <img src="https://github.com/sorryIMessedup/HelloAndroid/blob/master/data/screenshot_other.png" height="150px">
+  <img src="https://github.com/sorryIMessedup/HelloAndroid/blob/master/data/screenshot_other.png" height="300px">
 </div>
 
 You can press "HIDE" button to hide the text lower than it, the text will disappear, and the button changes to be "SHOW".
@@ -32,5 +32,5 @@ Prehaps you have touched the "Counter" button. You will see, it's a number with 
 Don't ask why it's 9 with circle. She's チルノ (Cirno) anyway.
 
 <div align="center">
-  <img src="https://github.com/sorryIMessedup/HelloAndroid/blob/master/data/screenshot_counter.png" height="150px">
+  <img src="https://github.com/sorryIMessedup/HelloAndroid/blob/master/data/screenshot_counter.png" height="300px">
 </div>
