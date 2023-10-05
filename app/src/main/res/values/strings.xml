@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidLab02</string>
+    <string name="app_name">Android Lab02</string>
     <string name="btn_ADD">ADD</string>
     <string name="btn_REDUCE">REDUCE</string>
     <string name="btn_CLEAR">CLEAR</string>

@@ -20,7 +20,8 @@ public class CounterActivity extends AppCompatActivity{
         Button btnReduce = findViewById(R.id.btn_REDUCE);
         Button btnClear = findViewById(R.id.btn_CLEAR);
 
-        numText.setText("⑨");
+        if (num == 9) numText.setText("⑨");
+        else numText.setText(String.valueOf(num));
         btnAdd.setOnClickListener(view -> {
             num++;
             numText.setText(String.valueOf(num));
